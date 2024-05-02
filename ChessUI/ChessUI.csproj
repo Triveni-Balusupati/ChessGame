@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>disable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Asserts\BishopB.png" />
+    <None Remove="Asserts\BishopW.png" />
+    <None Remove="Asserts\Board.png" />
+    <None Remove="Asserts\CursorB.cur" />
+    <None Remove="Asserts\CursorW.cur" />
+    <None Remove="Asserts\icon.ico" />
+    <None Remove="Asserts\KingB.png" />
+    <None Remove="Asserts\KingW.png" />
+    <None Remove="Asserts\KnightB.png" />
+    <None Remove="Asserts\KnightW.png" />
+    <None Remove="Asserts\PawnB.png" />
+    <None Remove="Asserts\PawnW.png" />
+    <None Remove="Asserts\QueenB.png" />
+    <None Remove="Asserts\QueenW.png" />
+    <None Remove="Asserts\RookB.png" />
+    <None Remove="Asserts\RookW.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ChessLogic\ChessLogic.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Asserts\BishopB.png" />
+    <Resource Include="Asserts\BishopW.png" />
+    <Resource Include="Asserts\Board.png" />
+    <Resource Include="Asserts\CursorB.cur" />
+    <Resource Include="Asserts\CursorW.cur" />
+    <Resource Include="Asserts\icon.ico" />
+    <Resource Include="Asserts\KingB.png" />
+    <Resource Include="Asserts\KingW.png" />
+    <Resource Include="Asserts\KnightB.png" />
+    <Resource Include="Asserts\KnightW.png" />
+    <Resource Include="Asserts\PawnB.png" />
+    <Resource Include="Asserts\PawnW.png" />
+    <Resource Include="Asserts\QueenB.png" />
+    <Resource Include="Asserts\QueenW.png" />
+    <Resource Include="Asserts\RookB.png" />
+    <Resource Include="Asserts\RookW.png" />
+  </ItemGroup>
+
+</Project>
